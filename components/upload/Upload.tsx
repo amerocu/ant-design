@@ -25,6 +25,7 @@ export { UploadProps };
 
 class Upload extends React.Component<UploadProps, UploadState> {
   static Dragger: typeof Dragger;
+  static UploadList: typeof UploadList;
 
   static defaultProps = {
     type: 'select' as UploadType,
